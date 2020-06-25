@@ -1,0 +1,16 @@
+#title {
+    text-align: center;
+    margin-top: -21px;
+    padding-top: 25px;
+}
+#message {text-align: center}
+#radio {margin-left: 44%}
+#submit {text-align: center}
+body {margin: 0px}
+#bd {
+    background-image: url("https://wallpapertag.com/wallpaper/full/2/1/c/507672-free-download-splatter-paint-wallpaper-1920x1200-iphone.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}

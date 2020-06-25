@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> The Happy Web </title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}?q={{ time }}" />
+    </head>
+    <div id = "bd">
+        <body>
+            <div id = "title">
+                <h1> The Happy Web </h1>
+            </div>
+            <div id = "message">
+                <h3> What are you feeling? </h3>
+            </div>
+            <div id = "radio">
+                <form method="post" action="/results">
+                    <input type="radio" id="sadness" name="emotion" value="sadness">
+                    <label for="sadness">Sadness</label><br> 
+                    <input type="radio" id="anger" name="emotion" value="anger">
+                    <label for="anger">Anger</label><br>
+                    <input type="radio" id="nervous-anxious" name="emotion" value="nervous-anxious">
+                    <label for="nervous-anxious">Nervousness/Anxiousness</label><br>  
+                    <input type="radio" id="frustration" name="emotion" value="frustration">
+                    <label for="frustration">Frustration</label><br>
+                    <input type="radio" id="jealousy" name="emotion" value="jealousy">
+                    <label for="jealousy">Jealousy</label><br>
+                    <input type="radio" id="boredom" name="emotion" value="boredom">
+                    <label for="boredom">Boredom</label><br>
+                    <input type="radio" id="dobut" name="emotion" value="doubt">
+                    <label for="doubt">Doubt</label><br>
+                    <input type="radio" id="irritated" name="emotion" value="irritated">
+                    <label for="irritated">Irritated</label><br>
+                    <input type="submit" value= "Submit">
+                </form>
+            </div>
+        </body>
+    </div>
+</html>
+<!-- Created by  -->
+
