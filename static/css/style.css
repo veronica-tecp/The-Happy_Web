@@ -12,9 +12,10 @@
     font-family: 'Righteous', cursive;
 }
 #radio {
-    margin-top: -3.5%;
-    margin-left: 33%;
-    font-size: 40px
+    margin-top: -2.5%;
+    margin-left: 35.3%;
+    font-size: 40px;
+    font-weight: bold
 }
 body {
     margin: 0px;
@@ -37,7 +38,7 @@ body {
     font-family: 'Bubblegum Sans', cursive;
     text-align: center;
     font-size: 30px;
-    margin-top: 8px;
+    margin-top: 5ßpx;
     margin-bottom: 8px;
 }
 #quoteAuthor{
@@ -49,7 +50,14 @@ body {
 #image {
     text-align: center
 }
+#exit {
+    margin-left: 37.5%;
+}
 .button {
     font-size: 20px;
-    text-align: center
+    margin-left: 17%
+}
+input[type=radio] {
+    width: 20px;
+    height: 2.25em;
 }
