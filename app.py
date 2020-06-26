@@ -19,3 +19,7 @@ def results():
     quote = model.get_quote(emotion)
     imageSrc = model.get_image(emotion)
     return render_template('results.html', quote=quote[0], quoteAuthor=quote[1], imgSrc=imageSrc)
+
+@app.route('/about')
+def about():
+    return render_template('about.html', time=datetime.now())

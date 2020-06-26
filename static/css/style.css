@@ -61,3 +61,47 @@ input[type=radio] {
     width: 20px;
     height: 2.25em;
 }
+#about-us {
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -3%;
+}
+#subtitle {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 35px;
+    margin-left: 4px;
+    margin-top: -15px
+}
+#para {
+    font-size: 25px;
+    margin-left: 4px;
+    margin-top: -25px
+}
+#bd3 {
+    background-color: lightblue
+}
+#back-button {
+    margin-left: 35%
+}
+#about-button {
+    margin-left: 33%
+}
+#img1 {
+    text-align: center;
+    margin-bottom: 6.2%
+}
+#img2 {
+    text-align: center;
+}
+.container {
+    width: 200px;
+    height: 120px;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+#text {
+    color: lightblue
+}
