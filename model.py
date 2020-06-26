@@ -16,8 +16,7 @@ def get_quote(emotion):
         return ["Doubt makes you weak. Believing in yourself makes you strong. The choice is yours.", "GYMQUOTES.CO"]
     elif emotion == "irritated":
         return ["Some people just need a high five...... in the face...... with a chair.", "Wondermom Wannabe"]
-​
-​
+
 def get_image(emotion):
     if emotion == "sadness":
         sList = ["https://im.indiatimes.in/content/itimes/photo/2016/Aug/26/1472233327-pug-drunk-on-happiness.jpg?w=1400&h=930&cc=1", "https://media.giphy.com/media/XbxZ41fWLeRECPsGIJ/giphy.gif"]
