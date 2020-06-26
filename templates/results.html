@@ -1,10 +1,29 @@
 <html>
     <head>
         <title>The Happy Web</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}?q={{ time }}" />
     </head>
-    <body>
-        <p>{{quote}}</p>
-        <p>- {{quoteAuthor}}</p>
-        <img src={{imgSrc}}>
-    </body>
+    <div id = "bd2">
+        <body>
+            <div id = "title">
+                <h1>The Happy Web</h1>
+            </div>
+            <div id = "quote">
+                <p>{{quote}}</p>
+            </div>
+            <div id = "quoteAuthor">
+                <p>- {{quoteAuthor}}</p>
+            </div>
+            <div id = "image">
+                <img src={{imgSrc}}>
+            </div>
+        </body>
+    </div>
+    <div id = "created">
+        <p>Created by Christopher Engelbart and Veronica Tecpoyotl</p>
+    </div>
 </html>
+
+
+
+

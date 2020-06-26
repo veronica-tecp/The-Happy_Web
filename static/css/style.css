@@ -1,16 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee+Shade&family=Calligraffitti&family=Merriweather:ital@1&family=Righteous&display=swap');
 #title {
     text-align: center;
     margin-top: -21px;
     padding-top: 25px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 60px
 }
-#message {text-align: center}
-#radio {margin-left: 44%}
-#submit {text-align: center}
-body {margin: 0px}
-#bd {
+#message {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+}
+#radio {
+    margin-top: -3.5%;
+    margin-left: 33%;
+    font-size: 40px
+}
+body {
+    margin: 0px;
+}
+#bd1 {
     background-image: url("https://wallpapertag.com/wallpaper/full/2/1/c/507672-free-download-splatter-paint-wallpaper-1920x1200-iphone.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
+}
+#bd2 {
+    background-color: rgb(245, 245, 172);
+}
+#created {
+    text-align: center;
+    font-family: 'Merriweather', serif
+}
+#quote {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#quoteAuthor{
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -1%
+}
+#image {
+    text-align: center
+}
+.button {
+    font-size: 20px;
+    text-align: center
 }
